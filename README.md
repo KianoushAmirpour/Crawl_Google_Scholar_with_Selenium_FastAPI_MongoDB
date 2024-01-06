@@ -15,7 +15,8 @@ For this project, we considerd having one database with two collections, namely 
 
 The `profiles` collection includes documents in JSON format, each containing information such as name, university, total_citations, h_index, and i_10_index for each scholar.
 
-The `papers` collection consists of documents in JSON format, each containing the scholar's name and a list of all published papers. For each paper, details such as title, authors, journal, number of citations, and the publication year are stored
+The `papers` collection consists of documents in JSON format, each containing the scholar's name and a list of all published papers.
+For each paper, details such as `title`, `author`s, `journal`, `number of citations`, and `the publication year` are stored.
 
 ## Endpoints
 The picture displays a list of all available endpoints. 
